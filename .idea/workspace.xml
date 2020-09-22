@@ -11,10 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3b4214-4c17-44a9-8e64-979ddcbf9ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/snapshot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/counter.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counter.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/coverage-final.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/math.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/math.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetchData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fetchData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetchData.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matchers.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/math.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -54,12 +71,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.test">
     <configuration default="true" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/jest.config.js" />
       <node-interpreter value="project" />
@@ -82,6 +107,35 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/jest-demo01/coverage/lcov-report/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test:coverage" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:coverage" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Jest.test" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.test:coverage" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600736451799</updated>
       <workItem from="1600736453559" duration="9866000" />
-      <workItem from="1600758442797" duration="4499000" />
+      <workItem from="1600758442797" duration="5608000" />
+      <workItem from="1600777614088" duration="1698000" />
     </task>
     <servers />
   </component>
@@ -109,37 +164,55 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600741856027">
-      <screen x="0" y="23" width="1680" height="983" />
+    <state x="2202" y="350" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600777978364">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.983@0.23.1680.983" timestamp="1600741856027" />
+    <state x="2202" y="350" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600777978364" />
+    <state x="1540" y="123" width="2360" height="1217" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600779292887">
+      <screen x="1440" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1540" y="123" width="2360" height="1217" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600779292887" />
     <state x="347" y="296" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1600758223699">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
     <state x="347" y="296" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1680.983@0.23.1680.983" timestamp="1600758223699" />
-    <state width="1659" height="216" key="GridCell.Tab.0.bottom" timestamp="1600758396430">
-      <screen x="0" y="23" width="1680" height="983" />
+    <state width="2539" height="324" key="GridCell.Tab.0.bottom" timestamp="1600779590319">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1659" height="216" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1600758396430" />
-    <state width="1659" height="216" key="GridCell.Tab.0.center" timestamp="1600758396429">
-      <screen x="0" y="23" width="1680" height="983" />
+    <state width="2539" height="333" key="GridCell.Tab.0.bottom/1440.0.2560.1440/0.0.1440.900@1440.0.2560.1440" timestamp="1600776058440" />
+    <state width="2539" height="324" key="GridCell.Tab.0.bottom/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600779590319" />
+    <state width="2539" height="324" key="GridCell.Tab.0.center" timestamp="1600779590318">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1659" height="216" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1600758396429" />
-    <state width="1659" height="216" key="GridCell.Tab.0.left" timestamp="1600758396429">
-      <screen x="0" y="23" width="1680" height="983" />
+    <state width="2539" height="333" key="GridCell.Tab.0.center/1440.0.2560.1440/0.0.1440.900@1440.0.2560.1440" timestamp="1600776058438" />
+    <state width="2539" height="324" key="GridCell.Tab.0.center/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600779590318" />
+    <state width="2539" height="324" key="GridCell.Tab.0.left" timestamp="1600779590317">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1659" height="216" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1600758396429" />
-    <state width="1659" height="216" key="GridCell.Tab.0.right" timestamp="1600758396430">
-      <screen x="0" y="23" width="1680" height="983" />
+    <state width="2539" height="333" key="GridCell.Tab.0.left/1440.0.2560.1440/0.0.1440.900@1440.0.2560.1440" timestamp="1600776058437" />
+    <state width="2539" height="324" key="GridCell.Tab.0.left/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600779590317" />
+    <state width="2539" height="324" key="GridCell.Tab.0.right" timestamp="1600779590319">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state width="1659" height="216" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1600758396430" />
-    <state x="19" y="92" key="SettingsEditor" timestamp="1600760674113">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2539" height="333" key="GridCell.Tab.0.right/1440.0.2560.1440/0.0.1440.900@1440.0.2560.1440" timestamp="1600776058439" />
+    <state width="2539" height="324" key="GridCell.Tab.0.right/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600779590319" />
+    <state x="2147" y="334" key="SettingsEditor" timestamp="1600777587921">
+      <screen x="1440" y="23" width="2560" height="1417" />
     </state>
     <state x="19" y="92" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600760674113" />
     <state x="19" y="109" key="SettingsEditor/0.23.1680.983@0.23.1680.983" timestamp="1600758641206" />
+    <state x="2147" y="334" key="SettingsEditor/1440.23.2560.1417/0.23.1440.833@1440.23.2560.1417" timestamp="1600777587921" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1600763255753">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
