@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd3b4214-4c17-44a9-8e64-979ddcbf9ce9" name="Default Changelist" comment="" />
+    <list default="true" id="fd3b4214-4c17-44a9-8e64-979ddcbf9ce9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/math.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +30,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1hqR5BO4yP5AGFlJ342w9EX09mC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +50,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +73,7 @@
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
-      <jest-options value="--watchAll" />
+      <jest-options value="--watch" />
       <envs />
       <scope-kind value="ALL" />
       <method v="2" />
@@ -62,37 +87,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600736451799</updated>
-      <workItem from="1600736453559" duration="4443000" />
+      <workItem from="1600736453559" duration="9866000" />
+      <workItem from="1600758442797" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600739780947">
+    <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600741856027">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.983@0.23.1680.983" timestamp="1600739780947" />
-    <state width="1420" height="216" key="GridCell.Tab.0.bottom" timestamp="1600739782777">
+    <state x="500" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.983@0.23.1680.983" timestamp="1600741856027" />
+    <state x="347" y="296" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1600758223699">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state width="1420" height="216" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1600739782777" />
-    <state width="1420" height="216" key="GridCell.Tab.0.center" timestamp="1600739782776">
+    <state x="347" y="296" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1680.983@0.23.1680.983" timestamp="1600758223699" />
+    <state width="1659" height="216" key="GridCell.Tab.0.bottom" timestamp="1600758396430">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state width="1420" height="216" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1600739782776" />
-    <state width="1420" height="216" key="GridCell.Tab.0.left" timestamp="1600739782775">
+    <state width="1659" height="216" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1600758396430" />
+    <state width="1659" height="216" key="GridCell.Tab.0.center" timestamp="1600758396429">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state width="1420" height="216" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1600739782775" />
-    <state width="1420" height="216" key="GridCell.Tab.0.right" timestamp="1600739782776">
+    <state width="1659" height="216" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1600758396429" />
+    <state width="1659" height="216" key="GridCell.Tab.0.left" timestamp="1600758396429">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state width="1420" height="216" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1600739782776" />
-    <state x="683" y="227" key="SettingsEditor" timestamp="1600737429596">
+    <state width="1659" height="216" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1600758396429" />
+    <state width="1659" height="216" key="GridCell.Tab.0.right" timestamp="1600758396430">
       <screen x="0" y="23" width="1680" height="983" />
     </state>
-    <state x="683" y="227" key="SettingsEditor/0.23.1680.983@0.23.1680.983" timestamp="1600737429596" />
+    <state width="1659" height="216" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1600758396430" />
+    <state x="19" y="109" key="SettingsEditor" timestamp="1600758641206">
+      <screen x="0" y="23" width="1680" height="983" />
+    </state>
+    <state x="19" y="109" key="SettingsEditor/0.23.1680.983@0.23.1680.983" timestamp="1600758641206" />
   </component>
 </project>
