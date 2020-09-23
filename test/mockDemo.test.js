@@ -1,4 +1,3 @@
-jest.mock("../src/mockDemo");
 import { fetchData } from "../src/mockDemo";
 
 test("fetchData 测试", () => {
@@ -6,3 +5,8 @@ test("fetchData 测试", () => {
     expect(eval(res)).toEqual("123");
   });
 });
+
+// test("getNumber 测试", () => {
+//   const { getNumber } = jest.requireActual("../src/mockDemo");
+//   expect(getNumber()).toBe(123);
+// });

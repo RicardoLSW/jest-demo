@@ -3,7 +3,7 @@
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
-  // automock: false,
+  // automock: true,
 
   // Stop running tests after `n` failures
   // bail: 0,
@@ -29,7 +29,7 @@ module.exports = {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  // coverageProvider: "babel",
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [
@@ -135,7 +135,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  // testEnvironment: "jest-environment-jsdom",
+  testEnvironment: "node",
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
