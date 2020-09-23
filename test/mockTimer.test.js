@@ -1,6 +1,8 @@
 import timer from "../src/mockTimer";
 
-jest.useFakeTimers();
+beforeEach(() => {
+  jest.useFakeTimers();
+});
 
 test("timer 测试", () => {
   const fn = jest.fn();
